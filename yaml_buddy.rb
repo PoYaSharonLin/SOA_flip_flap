@@ -1,9 +1,7 @@
 # frozen_string_literal: true
 
-# Module that can be included (mixin) to take and output Yaml data
-# yaml_buddy.rb
 require 'yaml'
-
+# module YamlBuddy that can be included (mixin) to take and output Yaml data
 module YamlBuddy
   attr_accessor :data
 
